@@ -111,7 +111,6 @@ tite.locrm12 <- function(p.true.tox,
     
     comb.curr = 1  
     comb.curr.second <- 1 
-    comb.curr.back <- 1 
     y.true <- numeric() 
     u.true <- numeric() 
     y.true.eff <- numeric() 
