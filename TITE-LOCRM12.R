@@ -330,7 +330,7 @@ tite.locrm12 <- function(p.true.tox,
           }
         }
       }
-      wE.effic[yE.effic == 1 | followup.effic >= obswin] <- 1
+      wE.effic[yE.effic == 1 | followup.effic >= obswin.eff] <- 1
       
       jags.data <- list(
         pat.dose.eff = pat.dose.eff,

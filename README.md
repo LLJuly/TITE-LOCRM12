@@ -147,7 +147,7 @@ output <- tite.locrm12(
   p.true.eff = p.true.eff,
   target.tox = 0.35,
   pdc.eff = 0.45,
-  ntrial = 200,
+  ntrial = 500,
   nmax = 51,
   cohort.size = 3,
   rate = 3,
@@ -176,19 +176,19 @@ Some key outputs are
 
 ```r
 output$PCS.OBDC
-# [1] 62.5
+# [1] 65.2
 
 output$PCS.PDC
-# [1] 62.5
+# [1] 65.2
 
 output$PS.overdose
-# [1] 29.5
+# [1] 27.8
 
 output$stop.pct
-# [1] 2
+# [1] 0.6
 
 output$duration
-# [1] 649.69
+# [1] 643.23
 ```
 
 The complete simulation results can be explored using
